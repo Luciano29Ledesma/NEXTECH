@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXTECH | Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <a class="logo" href="index.html">NEX<span>TECH</span></a>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a class="activo" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="titulo-pagina">
+            <p class="etiqueta">ESTAMOS PARA AYUDARTE</p>
+            <h1>Contactanos</h1>
+            <p>Dejanos tu consulta y nuestro equipo se pondrá en contacto.</p>
+        </section>
+
+        <section class="seccion contacto">
+            <div class="contacto-info">
+                <h2>Hablemos de tecnología</h2>
+                <p>Si necesitás información sobre un producto o querés hacer una consulta, completá el formulario.</p>
+                <p><strong>Correo:</strong> contacto@nextech.com</p>
+                <p><strong>Horario:</strong> Lunes a viernes de 9 a 18 hs.</p>
+            </div>
+
+            <form class="formulario" action="#" method="get">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="tunombre@email.com" required>
+
+                <label for="tema">Motivo de consulta</label>
+                <select id="tema" name="tema">
+                    <option>Consulta sobre productos</option>
+                    <option>Precios y disponibilidad</option>
+                    <option>Otra consulta</option>
+                </select>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu consulta..." required></textarea>
+
+                <button class="boton" type="submit">Enviar consulta</button>
+                <p class="nota">Formulario de ejemplo: no envía datos a un servidor.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 NEXTECH</p>
+    </footer>
+</body>
+</html>
